@@ -1,0 +1,28 @@
+Hi Krzysztof,
+
+Our Developers reviewed your Go test and unfortunately, we are not going to proceed with your application further.
+I have noted some feedback below - which we hope will be helpful for the future and provide some transparency.
+The feedback is not bad at all - we're just lucky with the quality and quantity of candidates in our process.
+I hope we can keep in touch for other roles in the future!
+
+
+Feedback
+- Considered different delimiter options
+- Memory usage is controlled by reading CSV data line by line
+- Solution works but might not be obvious how to run it
+- There is no main file to run and execute the program, it is only done through tests
+- Solution is only displayed by running the test, but you have to make sure to run it with -v flag otherwise you won't see the results
+- Does not use idiomatic folder structure
+- Unusual usage of types throughout the assignment
+- ScanResult uses both value and pointer received methods, would be good to see comments why.
+- Not idiomatic way of using a constructor with newScanResult
+- Strange logic for finding email header with needFirstIteration, would be good to see comments and thought process around this logic
+
+
+Kind regards,
+TJ
+
+
+
+TJ Leahy
+Talent Sourcing Lead
